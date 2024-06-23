@@ -1,0 +1,14 @@
+Package: WRDStools
+Title: A Package Providing Auxillary Functions For Corporate Governance Research With WRDS
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jeffrey", "Fowler", , "jdfowler@scu.edu", role = c("aut", "cre"))
+Description: This package provides numerous functions that aid greatly in the preprocessing of data from the Wharton Research Data Services platform (WRDS). Within the package, functions are defined that handle all necessary cleaning of data from datasets such as truost, fundamentals annual, and individual employment. These functions are designed to be used 1) to enhannce readability, and 2) to make facile data analysis from the aforementione datasets. More specifically; this package is made to be used by future research assistants of Professor Popper, and represents some of the work completed by a previous research assistant.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    tibble
